@@ -1,5 +1,4 @@
-package mvcexample;
-
+package collaboration_checkpoint;
 // A database with two counter components
 
 import java.util.*;  // For Observable

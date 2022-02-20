@@ -1,4 +1,4 @@
-package mvcexample;
+package collaboration_checkpoint;
 
 // This is the pink view.
 // It displays the B component of the model (data base).
