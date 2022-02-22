@@ -1,4 +1,4 @@
-package mvcexample;
+package collaboration_checkpoint;
 
 // Controller 2: displays views 3 and 4
 //               (displaying A and B components of the model)
