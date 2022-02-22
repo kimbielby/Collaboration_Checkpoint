@@ -1,4 +1,4 @@
-package collaboration_checkpoint;
+package mvcexample;
 
 // This is the pink view.
 // It displays the B component of the model (data base).
@@ -9,7 +9,7 @@ import java.util.*;  // For Observer
 import java.awt.*;
 import javax.swing.*;
 
-public class View4 extends JPanel implements Observer{
+public class View4 extends JPanel {
   
     private Model model;
     private Controller2 contr;   // Parent Frame
@@ -28,14 +28,11 @@ public class View4 extends JPanel implements Observer{
         add(new JLabel("View4"));
         display = new JTextField("No data", 15);
         add(display);
-        
-        // Subscribe to the model
-        model.addObserver(this);
       
     } // constructor
     
     // Called by controller to refresh the view:
-    public void update(Observable o, Object arg) {
+    public void update() {
         
         // Fetch (potentially) updated information and display it
         int b = model.getDataB();

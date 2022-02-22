@@ -1,4 +1,4 @@
-package collaboration_checkpoint;
+package mvcexample;
 
 /**
  *
