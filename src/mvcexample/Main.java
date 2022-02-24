@@ -10,7 +10,7 @@ public class Main {
    
     public static void main(String args[]) {
 
-	Model model = new Model();               // Create shared database
+        Model model = new Model();               // Create shared database
         Controller1 c1 = new Controller1(model); // Create first controller
         // laura -- instantiaying Controller1 several times
         Controller1 c1b = new Controller1(model); // Creating another controller1
