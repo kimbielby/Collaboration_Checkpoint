@@ -16,7 +16,7 @@ public class Main {
        
         // laura -- instantiaying Controller1 several times
         Controller1 c1b = new Controller1(model, "Controller1", 50, 250); // Creating another controller1
-        Controller1 c1c = new Controller1(model "Controller1", 50, 250); // Creating another controller1
+        Controller1 c1c = new Controller1(model, "Controller1", 50, 250); // Creating another controller1
         Controller1 c1d = new Controller1(model, "Controller1", 50, 250); // Creating another controller1
         
         // laura -- instantiating Controller2 several times
