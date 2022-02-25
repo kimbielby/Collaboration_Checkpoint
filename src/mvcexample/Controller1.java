@@ -21,17 +21,18 @@ public class Controller1 extends JFrame
     private View2 view2;
     private JButton clearViews;  // For direct message to views
     private JButton incA;        // To prompt the model to "modify" itself (A component)
-    private JButton quit;        // As it says
+    private JButton quit;  
+    private String frameTitle; // As it says
     
     // Constructor
-    public Controller1(Model model) {
+    public Controller1(Model model, String frameTitle, int x, int y) {
         
         // Record reference to the model
         this.model = model;
         
         // Configure the window
-        setTitle("Controller1");
-        setLocation(40,40);
+        setTitle(frameTitle);
+        setLocation(x,y);
         setSize(350,150);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         Container window = getContentPane();
